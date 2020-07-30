@@ -1,0 +1,8 @@
+name: SelectiveSpawnPoint
+version: 0.01a
+authors: [Rapitharian, Front]
+main: Plugin.Main
+api-version: 1.16
+load: POSTWORLD
+prefix: SSP
+website: https://github.com/FrontlineMist57/MC_SelectiveSpawnPoint
