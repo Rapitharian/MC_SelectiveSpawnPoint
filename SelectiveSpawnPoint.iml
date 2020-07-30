@@ -10,11 +10,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../SpigotAPI" />
+          <root url="file://$MODULE_DIR$/SpigotAPI" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../SpigotAPI" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/SpigotAPI" recursive="false" />
       </library>
     </orderEntry>
   </component>
