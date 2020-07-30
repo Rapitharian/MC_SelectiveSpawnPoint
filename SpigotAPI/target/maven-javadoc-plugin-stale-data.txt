@@ -1,0 +1,20 @@
+cmd.exe
+/X
+/C
+""D:\Program Files\Java\jdk1.8.0_261\jre\..\bin\javadoc.exe" @options @argfile"
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\allclasses-frame.html = 1596131548782
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\allclasses-noframe.html = 1596131548793
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\argfile = 1596131521865
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\constant-values.html = 1596131542190
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\deprecated-list.html = 1596131548756
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\help-doc.html = 1596131548806
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\index-all.html = 1596131548348
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\index.html = 1596131548796
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\options = 1596131521831
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\overview-frame.html = 1596131541428
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\overview-summary.html = 1596131548802
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\overview-tree.html = 1596131547694
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\package-list = 1596131541423
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\script.js = 1596131548808
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\serialized-form.html = 1596131542209
+D:\IntelliJ Projects\MC_SelectiveSpawnPoint\SpigotAPI\target\site\apidocs\stylesheet.css = 1596130655721
