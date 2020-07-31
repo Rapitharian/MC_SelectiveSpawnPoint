@@ -31,12 +31,22 @@
     </distributionManagement>
 
     <repositories>
-        <!--
-            If you are a plugin developer, please use https://hub.spigotmc.org/nexus/content/repositories/snapshots/
-            as your repository URL. This will ensure only Bukkit / Spigot-API are pulled from our Maven repository.
+        <repository>
+            <id>spigotmc-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
 
-            Please see https://www.spigotmc.org/go/maven for more information.
-        -->
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.16.1-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <repositories>	
         <repository>
             <id>spigotmc-public</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
