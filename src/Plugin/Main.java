@@ -40,3 +40,22 @@ class CommandKit implements CommandExecutor {
         // return false;
     }
 }
+
+class CommandSleep implements CommandExecutor {
+    // This method is called, when somebody uses our command
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (sender instanceof Player) {
+            Player player = (Player) sender;
+            // Create a new ItemStack (type: diamond)
+            ItemStack dirtblock = new ItemStack(Material.DIRT, 10);
+            // Create a new ItemStack (type: brick)
+            ItemStack gravel = new ItemStack(Material.GRAVEL, 10);
+            // Give the player our items (comma-separated list of all ItemStack)
+            player.getInventory().addItem(dirtblock, gravel);
+        }
+        // If the player (or console) uses our command correct, we can return true
+        return true;
+        // return false;
+    }
+}
