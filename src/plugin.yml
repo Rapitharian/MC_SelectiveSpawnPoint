@@ -8,6 +8,6 @@ prefix: SSP
 website: https://github.com/FrontlineMist57/MC_SelectiveSpawnPoint
 commands:
   kit:
-    description: Your description
+    description: Gives the player 32 diamonds and 20 bricks - a test command
     usage: /<command>
     permission: yourplugin.yourcommandpermission
