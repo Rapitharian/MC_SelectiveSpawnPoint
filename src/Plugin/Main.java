@@ -13,6 +13,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         //Fired when the server enables the plugin
         this.getCommand("kit").setExecutor(new CommandKit());
+        this.getCommand("sleep").setExecutor(new CommandSleep());
     }
     @Override
     public void onDisable() {
@@ -41,6 +42,7 @@ class CommandKit implements CommandExecutor {
     }
 }
 
+
 class CommandSleep implements CommandExecutor {
     // This method is called, when somebody uses our command
     @Override
@@ -48,11 +50,11 @@ class CommandSleep implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
             // Create a new ItemStack (type: diamond)
-            ItemStack dirtblock = new ItemStack(Material.DIRT, 10);
+            ItemStack dirt = new ItemStack(Material.DIRT, 10);
             // Create a new ItemStack (type: brick)
             ItemStack gravel = new ItemStack(Material.GRAVEL, 10);
             // Give the player our items (comma-separated list of all ItemStack)
-            player.getInventory().addItem(dirtblock, gravel);
+            player.getInventory().addItem(dirt, gravel);
         }
         // If the player (or console) uses our command correct, we can return true
         return true;
