@@ -14,6 +14,7 @@ public class Main extends JavaPlugin {
         //Fired when the server enables the plugin
         this.getCommand("kit").setExecutor(new CommandKit());
         this.getCommand("sleep").setExecutor(new CommandSleep());
+        new LoginListener(this);
     }
     @Override
     public void onDisable() {
