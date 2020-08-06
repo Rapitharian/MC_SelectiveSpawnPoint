@@ -8,10 +8,5 @@ prefix: SSP
 website: https://github.com/FrontlineMist57/MC_SelectiveSpawnPoint
 commands:
   kit:
-    description: Gives the player 32 diamonds and 20 bricks - a test command
+    description: Gives the player a bed.
     usage: /<command>
-    permission: ssp.kit
-  sleep:
-    description: Set your spawn at the bed you're currently in
-    usage: /<command>
-    permission: ssp.sleep
